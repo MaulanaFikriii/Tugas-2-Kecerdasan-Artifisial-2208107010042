@@ -57,13 +57,6 @@ Model CNN ini terdiri dari empat lapisan konvolusi yang dilanjutkan dengan lapis
 5. **Evaluasi Model:** Akurasi dan loss model divisualisasikan untuk memantau performa.  
 6. **Prediksi Gambar Baru:** Model digunakan untuk memprediksi gambar baru.  
 
-## Visualisasi Training dan Validasi  
-Selama pelatihan, akurasi dan loss divisualisasikan dalam grafik berikut:  
-![Training vs Validation Plot](path_to_training_plot.png)  
-
-## Contoh Penggunaan Model  
-Berikut adalah contoh prediksi model pada gambar baru:  
-![Predicted Image](path_to_predicted_image.png)  
 
 ## Saved Model  
 Model yang telah dilatih disimpan dalam format `.h5` dan dapat digunakan kembali untuk inferensi. File model: `cats_and_dogs_cnn_model.h5`.  
@@ -73,9 +66,3 @@ Model yang telah dilatih disimpan dalam format `.h5` dan dapat digunakan kembali
 - NumPy  
 - Matplotlib  
 - Python 3.x  
-
-## Cara Menjalankan  
-1. Clone repository ini.  
-2. Jalankan file Python untuk melatih model:  
-   ```bash
-   python train_model.py
